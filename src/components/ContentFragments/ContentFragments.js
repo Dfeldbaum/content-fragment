@@ -13,7 +13,6 @@ class ContentFragments extends Component {
     return (
 
       <div className="content-fragments">
-
       </div>
     );
   }
