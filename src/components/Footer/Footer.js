@@ -5,14 +5,11 @@ class Footer extends Component {
     return (
       <div className="footer">
         <div className="footer__name-wrapper">
-          <p>&#169; 2018 David Feldbaum</p>
+          <p>&#169; 2019 David Feldbaum & Alex Lockhart</p>
         </div>
-
-
-
       </div>
     );
   }
 }
-
+ 
 export default Footer;
