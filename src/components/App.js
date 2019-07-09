@@ -4,9 +4,8 @@ import '../styles/App.css';
 import Header from './Header/Header'
 import Footer from './Footer/Footer'
 import About from './About/About'
+import ContentFragment from './ContentFragment/ContentFragment'
 import ContentFragments from './ContentFragments/ContentFragments'
-
-
 
 
 class App extends Component {
@@ -15,12 +14,12 @@ class App extends Component {
     super(props);
 
     this.state = {
-      progress: 'content-fragments',
+      progress: 'content-fragment',
     }
   }
 
   showContentFragments(){
-    this.setState({progress:"content-fragments"})
+    this.setState({progress:"content-fragment"})
   }
 
   showAbout(){
@@ -29,14 +28,14 @@ class App extends Component {
 
   showContact(){
     this.setState({progress:"contact"})
-  }
 
+  }
 
   PickView(props){
     let progress = this.state.progress;
 
-    if (progress == 'content-fragments'){
-      return <ContentFragments/>
+    if (progress == 'content-fragment'){
+      return <ContentFragment/>
     }
 
     if (progress == 'about'){

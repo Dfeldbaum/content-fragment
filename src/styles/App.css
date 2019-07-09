@@ -149,9 +149,13 @@ body, html {
       max-width: 100%;
       height: auto; }
 
-.content-fragment p {
+.content-fragment {
   color: #000000;
-  font-size: 16px; }
+  font-size: 16px;
+  padding-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .content-fragments {
   width: 100%;
