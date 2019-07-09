@@ -149,12 +149,9 @@ body, html {
       max-width: 100%;
       height: auto; }
 
-.content-fragment {
-  border: 1px solid #000000;
-  width: 50%; }
-  .content-fragment p {
-    color: #000000;
-    font-size: 16px; }
+.content-fragment p {
+  color: #000000;
+  font-size: 16px; }
 
 .content-fragments {
   width: 100%;
