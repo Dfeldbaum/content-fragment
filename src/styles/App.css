@@ -150,7 +150,8 @@ body, html {
       height: auto; }
 
 .content-fragment {
-  color: #000000;
+  color: #8a8a8a;
+  font-family: "proxima-nova",sans-serif;
   font-size: 16px;
   padding-top: 200px;
   display: flex;
