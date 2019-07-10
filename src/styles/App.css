@@ -181,7 +181,10 @@ body, html {
     font-weight: bold;
     margin-right: 5px; }
   .content-fragment__text-container {
-    width: auto; }
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
     @media (min-width: 767px) {
       .content-fragment__text-container {
         width: 80%; } }
