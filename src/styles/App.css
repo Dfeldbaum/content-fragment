@@ -66,6 +66,9 @@ body, html {
             text-decoration: underline; }
           .header .nav-wrapper__list li a:active {
             color: #8a8a8a; }
+      .header .nav-wrapper__list li:hover {
+        text-decoration: underline;
+        text-underline-position: under; }
     @media (min-width: 767px) {
       .header .nav-wrapper__name {
         position: absolute;

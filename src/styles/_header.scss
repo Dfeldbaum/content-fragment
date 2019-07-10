@@ -50,12 +50,17 @@
           &:hover {
             color: $black;
             text-decoration: underline;
-            // text-underline-position: under;
+            
           }
           &:active {
             color: $gray;
           }
         }
+      }
+
+      li:hover {
+        text-decoration: underline;
+        text-underline-position: under;
       }
     }
 
