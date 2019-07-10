@@ -17,6 +17,7 @@ class About extends Component {
           <br/>
           <p className="text-container__copy"><a href="https://engineering.icf.com/aem-content-fragments-in-the-wild/" target="_blank">AEM Content Fragments in the Wild</a></p>
           <p className="text-container__copy"><a href="https://engineering.icf.com/aem-content-fragments-as-an-api/" target="_blank">AEM Content Fragments as an API</a></p>
+          <p className="text-container__copy"><a href="https://engineering.icf.com/using-a-content-fragment-api-in-react" target="_blank">Using a Content Fragment API in React</a></p>
         </div>
         <div class="item img-container">
           <img src="/../img/react-logo.png"/>

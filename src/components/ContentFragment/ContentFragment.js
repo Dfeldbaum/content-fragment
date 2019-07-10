@@ -32,9 +32,6 @@ class ContentFragment extends Component {
     }
 
   render() {
-    console.log(this.props, 'props');
-    console.log(this.state, 'state');
-
     let { isLoaded, items } = this.state  // access items from state in render()
 
     if (!isLoaded) {
@@ -46,11 +43,23 @@ class ContentFragment extends Component {
         <div className="content-fragment">
           <ul>
             {items.map(item => ( //loop each obj from api result 
-              <li key={item.modelTitle}>
-                <p>Title: {item.title}</p>
-                <p>Description: {item.description}</p>
-                <p>Release Date: {item.releaseDate}</p>
-              </li> 
+                <li key={item.modelTitle}>
+                  <div className="content-fragment__text-container">
+                    <p><span>Title:</span> {item.title}</p>
+                    <p><span>Description:</span> {item.description}</p>
+                    <p><span>Release Date:</span> 
+                      {new Intl.DateTimeFormat('en-US', { 
+                        year: 'numeric', 
+                        month: 'long', 
+                        day: '2-digit' 
+                        }).format(item.releaseDate)}                
+                    </p>
+                  </div>
+
+                  <div className="content-fragment__img-container">
+                    <img src={"/../img" + item.image}/> 
+                  </div>
+                </li> 
             ))} 
           </ul> 
         </div>
