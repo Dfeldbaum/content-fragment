@@ -1,13 +1,12 @@
 .about-section {
   display: flex;
   flex-direction: column;
-  margin: 108px auto 0;
+  margin: 75px auto 0;
   padding: 45px;
 
   @media screen and (min-width: $screen-sm) {
     flex-direction: row;
   }
-
 
   .text-container {
     width: 100%;
@@ -46,7 +45,6 @@
       font-weight: 400;
       padding-right: 50px;
     }
-
   }
 
   .img-container {
@@ -59,9 +57,5 @@
       max-width: 100%;
       height: auto;
     }
-
   }
-
-
-
 }

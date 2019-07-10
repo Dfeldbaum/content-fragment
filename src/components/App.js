@@ -28,7 +28,6 @@ class App extends Component {
 
   showContact(){
     this.setState({progress:"contact"})
-
   }
 
   PickView(props){
@@ -51,9 +50,8 @@ class App extends Component {
           {this.PickView()} 
 
           <Footer/>
-
       </div>
-    );
+    )
   }
 }
 

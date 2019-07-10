@@ -2,8 +2,30 @@
     color: $gray;
     font-family: "proxima-nova",sans-serif;
     font-size: 16px;
-    padding-top: 200px;
+    padding: 165px 45px 0px 45px;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (min-width: $screen-sm) {
+        padding: 125px 45px 0px 45px;
+    }
+
+    ul {
+        list-style-type: none;
+        
+        @media (min-width: $screen-sm) {
+            // width: 50%;
+        }
+
+    }
+
+    li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 25px;
+        border: .25px solid $gray;
+        padding: 10px;
+    }
 };
